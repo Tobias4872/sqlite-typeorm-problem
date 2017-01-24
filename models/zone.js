@@ -38,10 +38,6 @@ __decorate([
     typeorm_1.JoinColumn(),
     __metadata("design:type", player_specification_1.PlayerSpecification)
 ], Zone.prototype, "playerSpecification", void 0);
-__decorate([
-    typeorm_1.Column(),
-    __metadata("design:type", String)
-], Zone.prototype, "zoneKey", void 0);
 Zone = __decorate([
     typeorm_1.Table(),
     __metadata("design:paramtypes", [])

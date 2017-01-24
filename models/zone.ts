@@ -26,7 +26,4 @@ export class Zone {
     @JoinColumn()
     public playerSpecification: PlayerSpecification;
 
-    @Column()
-    public zoneKey: string;
-
 }
