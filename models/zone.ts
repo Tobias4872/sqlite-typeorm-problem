@@ -13,10 +13,7 @@ export class Zone {
     })
     public name: string;
 
-    @ManyToOne((type) => Site, (site) => site.zones, {
-        nullable: false,
-        onDelete: "CASCADE",
-    })
+    @ManyToOne((type) => Site, (site) => site.zones)
     @JoinColumn()
     public site: Site;
 

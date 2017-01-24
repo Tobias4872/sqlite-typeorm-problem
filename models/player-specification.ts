@@ -13,10 +13,7 @@ export class PlayerSpecification {
     })
     public name: string;
 
-    @ManyToOne((type) => Publisher, (publisher) => publisher.playerSpecifications, {
-        nullable: false,
-        onDelete: "CASCADE",
-    })
+    @ManyToOne((type) => Publisher, (publisher) => publisher.playerSpecifications)
     @JoinColumn()
     public publisher: Publisher;
 

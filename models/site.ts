@@ -14,10 +14,7 @@ export class Site {
     })
     public name: string;
 
-    @ManyToOne((type) => Publisher, (publisher) => publisher.sites, {
-        nullable: false,
-        onDelete: "CASCADE",
-    })
+    @ManyToOne((type) => Publisher, (publisher) => publisher.sites)
     @JoinColumn()
     public publisher: Publisher;
 
