@@ -5,20 +5,21 @@ Just some code to demonstrate a problem with typeorm and sqlite
 Please execute the following steps:
 
 1. Checkout this code
-
+```
 git clone https://github.com/Tobias4872/sqlite-typeorm-problem.git
-
+```
 2. Move into the directory:
-
+```
 cd sqlite-typeorm-problem
-
+```
 3. Install packages
-
+```
 npm install
-
+```
 4. Run index
-
+```
 node index.js
+```
 
 # The problem
 
