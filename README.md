@@ -16,6 +16,10 @@ cd sqlite-typeorm-problem
 ```
 npm install
 ```
+* Compile
+```
+tsc -p .
+```
 * Run
 ```
 node index.js
